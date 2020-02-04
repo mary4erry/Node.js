@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/getNews" method="POST">
+        <legend>
+            Новости
+        </legend>
+        <select name="category" id="">
+            {{#each categories}}
+                <option value="{{this.href}}">{{this.name}}</option>
+            {{/each}}
+        </select>
+        <button type="submit">!!!</button>
+    </form>
+</body>
+</html>
