@@ -1,0 +1,11 @@
+<div class="Newsline">
+    <h2>{{title}}</h2>
+    {{#if error}}
+        <h3>Error!</h3>
+    {{/if}}
+    <ul>
+        {{#each item}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+</div>
