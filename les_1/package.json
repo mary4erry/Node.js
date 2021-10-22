@@ -1,0 +1,16 @@
+{
+  "name": "les_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "server": "nodemon 1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi": "^0.3.1"
+  }
+}
